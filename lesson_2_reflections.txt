@@ -1,0 +1,26 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Mostra uma mensagem dizendo que inicializou-se um Repositorio Git vazio. Precisamos do comando para iniciar o repositorio, coleção de arquivos, que se dejesa trabalhar.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	A diferença entre eles eh que staging area eh um local provisorio para envirar em um unico commit os arquivos que voce desejae enviar e a working directory eh o local no computador onde estao necessariamente os arquivos que foram enviados para staging area e arquivos que poderao nao ir para a staging area
+
+	(A Staging area eh um local onde voce empacota os varios commits e envia eles em um só commit. Dessa forma fica facil atender a regre de outro de commit: Alteração Logica. A Working directory eh o espaço no computador onde os arquivos estao e estes arquivos nao necessariamente irao para o repositorio. )
+
+	O grande valor da staging area eh empacotar os commits para que voce salve so um commit mandando um commit somente por Alteração Logica do codigo
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?

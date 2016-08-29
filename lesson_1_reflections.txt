@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Através da ajuda do comando fica extremamente mais facil visualizar onde se encontra a alteração (e.g. addição de recurso, exclusão de recurso anterior ou até alteração de alguma palavra de forma errada-typo). O comando mostra a linha e o que foi alterado.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    A capacidade de ter acesso a uma versão antiga pode ajudar a voltar para um ponto onde o codigo estava funcional antes de voce ter feito alguma alteraçao. Poder voltar e ver como funcionava o codigo antes de grande alteração tambem pode ser de grande ajuda
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: voce tem mais poder de decisao e pode escolher a hora perfeita para salvar. Pode ser antes de ter que parar de fazer algo e ir fazer outra coisa. Pode ser no momento que eh considerado o mais ideal (em uma alteração logica). 
+
+    Cons: salvar quando voce acha que eh certo pode nao ser a melhor coisa a se fazer. O arquivo pode acabar ficando grande demais e os 'saves' excessivos podem acabar com o proposito e eficiencia do git commit
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Acredito que o proposito de cada version-control-system eh diferente. O git eh voltado para código, enquanto o Google Docs eh mais geral
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log --stat
+    --------------
+    Para ver o historico de atualizações mais a mensagem 'label'
+
+    git diff <first_id> <second_id>
+    -------------------------------
+    Para ver as alterações entre dois arquivos
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Eh de grande utilidade poder fazer qualquer tipo de alteração e caso esta nao de certo ou nao agrade, basta voltar para uma determinada versao anterior onde tudo estava funcionando
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Para ter uma melhor experiencia como programador, para desenvolver projetos na disciplina ESOF e para trabalhar com o software no meu IC
