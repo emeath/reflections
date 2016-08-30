@@ -11,8 +11,8 @@ automatically stay up-to-date with your remote repository?
     
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
-    Fill in your answer here
+ 
+    Fork eh um tipo de clone que a primeiro momento so fica disponivel no GitHub. Clone eh quando voce baixa do GH o repositorio e branches sao sequencias de commits. Fork eh usado quando voce quer alterar um projeto mas nao tem permissao do dono e deseja sugerir alteraçoes. Clone eh para baixar repositorios de sua autoria ou da autoria de outras pessoas. Voce baixa no seu computador e as altera da forma que quiser. Branch eh usado para adicionar, testar e experimentar recursos no "projeto" (branch master) sem que inicialmente seja aplicada essas testes no projeto 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
