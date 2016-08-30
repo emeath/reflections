@@ -14,13 +14,24 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	Usando o comando git add. Desta maneira varios commits serao agrupados e será enviado para o repositorio somente um commit
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	As situações em que branches sao uteis sao quando voce deseja alterar o projeto de alguma forma mas deseja poder voltar para um tipo de save-point do projeto antes das modificações. Branches ajudariam ao dar a capacidade de ramificar do projeto atual e deixa-lo em um 'save-point' que podera ser acessado 
+
 How do the diagrams help you visualize the branch structure?
+
+	Mostrando como os commits estao conectados e permintindo melhor visualizao do estado do projeto
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
+	Combinar dois branchs em um unico commit. Por ser uma junção de dois branches
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+	
+	pros: torna o processo mais facil.
+	con: tem chance de fazer algum processo errado e estragar parte do projeto
